@@ -1,0 +1,19 @@
+{
+  "name": "@valakuth/gmail_integration",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --verbose ",
+    "test:silent": "jest --verbose --silent",
+    "test:watch": "jest --watch --verbose --silent",
+    "test:coverage": "jest --coverage --passWithNoTests"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "googleapis": "^83.0.0",
+    "jest": "^24.9.0",
+    "uuid": "^3.3.3"
+  }
+}
